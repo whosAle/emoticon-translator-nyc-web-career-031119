@@ -10,7 +10,7 @@ def load_library(file_path)
   hash.each do |k, v|
     emotes['get_meaning'].merge!({v[1] => k})
     emotes['get_emoticon'].merge!({v[0] => v[1]})
-  end 
+  end
   emotes
 end
 
